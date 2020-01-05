@@ -1,5 +1,8 @@
-Tmux Configuration
+my-tmux : Tmux Configuration
 =====================
+
+Forkd from [samoshkin/tmux-config](https://github.com/samoshkin/tmux-config)
+
 Tmux configuration, that supercharges your [tmux](https://tmux.github.io/) and builds cozy and cool terminal environment.
 
 ![intro](https://user-images.githubusercontent.com/768858/33152741-ec5f1270-cfe6-11e7-9570-6d17330a83aa.gif)
@@ -59,10 +62,10 @@ Personally, I use it on OSX 10.11.5 El Capitan through iTerm2.
 On OSX you can install latest 2.6 version with `brew install tmux`. On Linux it's better to install from source, because official repositories usually contain outdated version. For example, CentOS7 - v1.8 from base repo, Ubuntu 14 - v1.8 from trusty/main. For how to install from source, see this [gist](https://gist.github.com/P7h/91e14096374075f5316e) or just google it.
 
 
-To install tmux-config:
+To install:
 ```
-$ git clone https://github.com/samoshkin/tmux-config.git
-$ ./tmux-config/install.sh
+$ git clone https://github.com/my-dotfile/my-tmux.git ~/.my-tmux
+$ ~/.my-tmux/install.sh
 ```
 
 `install.sh` script does following:
